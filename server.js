@@ -1,7 +1,7 @@
 const db = require("./db/connection.js");
 // const express = require("express");
 const startInquirer = require("./db/queries.sql");
-const PORT = process.env.PORT || 3001;
+// const PORT = process.env.PORT || 3001;
 // const app = express();
 
 // express middleware
