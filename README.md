@@ -29,3 +29,7 @@ npm i inquirer@8.2.4
 
 ## Video Walkthrough
  https://drive.google.com/file/d/1nU-dS26C5RW9nOyHU2SVJ1yvT-5r5h8D/view
+
+
+## Git Hub Repo
+https://github.com/johndean3326/Employee-Tracker-12
