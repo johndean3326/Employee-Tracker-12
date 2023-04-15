@@ -4,7 +4,7 @@ CREATE DATABASE company_db;
 USE company_db;
 
 
-CREATE TABLE department (
+CREATE TABLE departments (
   id INT AUTO_INCREMENT,
   roles_id INT,
   department_name VARCHAR(30) NOT NULL,

@@ -1,5 +1,5 @@
-USE company;
-INSERT INTO departments (name)
+USE company_db;
+INSERT INTO departments (department_name)
 VALUES
 ("Accounting"),
 ("Sales"),
@@ -17,7 +17,7 @@ VALUES
 ("Service Lead", 60000, 4),
 ("Tech", 46000, 4);
 
-INSERT INTO employees (first_name, last_name, role_id)
+INSERT INTO employees (first_name, last_name, roles_id)
 VALUES 
 ("Misty","Beauer", 1),
 ("Sean","Flemming", 2),

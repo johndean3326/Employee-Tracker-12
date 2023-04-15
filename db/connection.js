@@ -4,12 +4,12 @@ const mysql = require("mysql2");
 // Connect to database
 const db = mysql.createConnection(
   {
-    host: "localhost",
+    host: "127.0.0.1",
     // Your MySQL username
-    user: "",
+    user: process.env.DB_USER,
     // Your MySQL password
-    password: "",
-    database: ""
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME
   },
   console.log("Employee Tracker connected!")
 );

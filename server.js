@@ -1,11 +1,12 @@
 const db = require("./db/connection.js");
 // const express = require("express");
-const startInquirer = require("./db/queries.sql");
-// const PORT = process.env.PORT || 3001;
+const startInquirer = require("./db/queries.js");
+const mysql = require ("mysql2");
+const PORT = process.env.PORT || 3001;
 // const app = express();
 
 // express middleware
-// // app.use(express.urlencoded({extended: false}));
+// app.use(express.urlencoded({extended: false}));
 // app.use(express.json());
 
 // Default response for any other request (Not found)
@@ -19,6 +20,7 @@ db.connect(err => {
   console.log('Database connected.');
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
-    startInquirer();
+   
   });
 });
+startInquirer();
